@@ -1,0 +1,159 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5ab; /* Light coffee color */
+    margin: 0;
+    padding: 0;
+    color: #4e342e; /* Dark brown text */
+}
+
+/* Header */
+.header {
+    background-color: #6f4e37; /* Rich dark brown */
+    color: #f3e5ab; /* Light cream for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header form {
+    display: inline;
+}
+
+.small-button {
+    background-color: #d7ccc8; /* Soft brown */
+    color: #4e342e;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+    background-color: #a1887f; /* Slightly darker brown on hover */
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White for card contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Messages */
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.message.success {
+    background-color: #c8e6c9; /* Light green for success */
+    color: #388e3c;
+}
+
+.message.error {
+    background-color: #ffcdd2; /* Light red for errors */
+    color: #c62828;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #6f4e37; /* Dark brown */
+    color: #f3e5ab;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5d4037; /* Slightly darker brown */
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #8d6e63; /* Medium brown */
+    color: #ffffff;
+}
+
+table tr:hover {
+    background-color: #f3e5ab; /* Light coffee hover effect */
+}
+
+table tr td form {
+    display: inline;
+}
+
+table a {
+    color: #6f4e37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:hover {
+    color: #5d4037;
+}
+
+/* Links */
+a {
+    color: #6f4e37;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6f4e37;
+    color: #f3e5ab;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
